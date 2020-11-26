@@ -19,7 +19,7 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   /* background-color: #F5F5F5; */
-  background-image: url(fundo.png);
+  background-image: url(fundo_id.svg);
   background-size: cover;
 }
 
@@ -95,6 +95,35 @@ body {
   box-shadow: 2px 2px 5px 0px #656565;
 }
 
+#maos {
+  animation: maos-movimento 1s infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes maos-movimento {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(10deg);
+  }
+}
+#pes {
+  animation: pes-movimento 0.2s infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes pes-movimento {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(10deg);
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .center {
     display: flex;
@@ -147,6 +176,9 @@ body {
 
   .logo-image {
     height: 100px !important;
+  }
+  .text-main {
+    text-align: center;
   }
 }
 
