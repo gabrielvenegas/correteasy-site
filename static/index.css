@@ -1,0 +1,157 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.mui-textfield > input:focus,
+.mui-textfield > textarea:focus {
+  border-color: #11152c;
+  color: #11152c;
+}
+
+label {
+  color: #11152c !important;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /* background-color: #F5F5F5; */
+  background-image: url(fundo.png);
+  background-size: cover;
+}
+
+/* .btn-outline-dark {
+  margin-left: 50px;
+}
+
+.btn-secondary {
+  margin-left: 20px;
+} */
+
+.headerMain1 {
+  color: #11152c;
+  font-size: 55px;
+  font-weight: bold;
+  padding-top: 0px !important;
+  margin-top: 0px !important;
+}
+
+.headerMain2 {
+  color: #11152c;
+  font-size: 45px;
+  /* font-weight: bolder; */
+  line-height: 50px;
+}
+
+.main-text {
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.title-card {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 29px;
+  color: #1a1c2d;
+}
+
+.center {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  text-align: right;
+}
+
+.show-big-screen {
+  display: initial;
+}
+
+.logo {
+  text-align: left;
+  justify-content: flex-start;
+}
+
+.show-sm-screen {
+  display: none;
+}
+
+.logo-image {
+  /* width: 50% !important; */
+  max-height: 100px !important;
+}
+
+.menu-item {
+  color: #11152c;
+}
+
+.card-shadow {
+  box-shadow: 2px 2px 5px 0px #656565;
+}
+
+@media only screen and (max-width: 600px) {
+  .center {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+
+  .show-big-screen {
+    display: none;
+  }
+
+  .show-sm-screen {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .logo-image {
+    width: 100%;
+  }
+
+  .headerMain1 {
+    color: #11152c;
+    font-size: 40px;
+
+    font-weight: bold;
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+    text-align: center;
+  }
+
+  .headerMain2 {
+    color: #11152c;
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 50px;
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+    text-align: center;
+  }
+
+  .menu-item {
+    color: #11152c !important;
+  }
+
+  .card-shadow {
+    box-shadow: 0px 0px 15px 0px #cccccc;
+  }
+
+  .logo-image {
+    height: 100px !important;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 650px) {
+  .colorize-resource {
+    color: #11152c !important;
+  }
+}
